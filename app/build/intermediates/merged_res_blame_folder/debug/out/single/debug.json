@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout___listview_main.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\__listview_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_main.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\listview_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_addstudent.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\addstudent.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_calendar_icon.png.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-hdpi\\calendar_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_attendance_list_per_student.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\view_attendance_list_per_student.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_attandance.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\add_attandance.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_faculty_list.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\view_faculty_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_start.png.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-hdpi\\start.png"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_clg.jpg.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-hdpi\\clg.jpg"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_student_list.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\view_student_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_layout.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\test_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundedbutton_1.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable\\roundedbutton_1.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_student_attendance.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\add_student_attendance.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_student_attendence.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\activity_student_attendence.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_main.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\test_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_roundedtextview.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-hdpi\\roundedtextview.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_attendance_list.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\view_attendance_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewstudent.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\viewstudent.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_addfaculty.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\addfaculty.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_roundedbutton.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\drawable-hdpi\\roundedbutton.xml"
+    },
+    {
+        "merged": "E:\\Android\\New attendence system\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Android\\New attendence system\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

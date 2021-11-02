@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:7:5-59:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:8:9-73
+13        android:allowBackup="true"
+13-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:9:9-35
+14        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+14-->[com.android.support:support-compat:28.0.0] C:\Users\Deepak\.gradle\caches\transforms-2\files-2.1\06f6df44c76c4a181cad1895980d5a87\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@drawable/ic_launcher"
+17-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:10:9-45
+18        android:label="@string/app_name"
+18-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:11:9-41
+19        android:testOnly="true"
+20        android:theme="@style/Theme.AppCompat.Light" >
+20-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:12:9-53
+21        <activity android:name="com.android.attendance.activity.StudentAttendence" />
+21-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:13:9-95
+21-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:13:19-83
+22        <activity
+22-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:14:9-22:20
+23            android:name="com.android.attendance.activity.MainActivity"
+23-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:15:13-72
+24            android:label="@string/app_name" >
+24-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:16:13-45
+25            <intent-filter>
+25-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:18:17-69
+26-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:20:17-77
+28-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:23:9-25:48
+32            android:name="com.android.attendance.activity.LoginActivity"
+32-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:24:13-73
+33            android:label="@string/app_name" />
+33-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:25:13-45
+34        <activity
+34-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:26:9-28:48
+35            android:name="com.android.attendance.activity.MenuActivity"
+35-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:27:13-72
+36            android:label="@string/app_name" />
+36-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:28:13-45
+37        <activity
+37-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:29:9-31:48
+38            android:name="com.android.attendance.activity.AddFacultyActivity"
+38-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:30:13-78
+39            android:label="@string/app_name" />
+39-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:31:13-45
+40        <activity
+40-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:32:9-34:48
+41            android:name="com.android.attendance.activity.AddStudentActivity"
+41-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:33:13-78
+42            android:label="@string/app_name" />
+42-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:34:13-45
+43        <activity
+43-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:35:9-37:48
+44            android:name="com.android.attendance.activity.ViewFacultyActivity"
+44-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:36:13-79
+45            android:label="@string/app_name" />
+45-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:37:13-45
+46        <activity
+46-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:38:9-40:48
+47            android:name="com.android.attendance.activity.ViewStudentActivity"
+47-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:39:13-79
+48            android:label="@string/app_name" />
+48-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:40:13-45
+49        <activity
+49-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:41:9-43:48
+50            android:name="com.android.attendance.activity.TestActivity"
+50-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:42:13-72
+51            android:label="@string/app_name" />
+51-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:43:13-45
+52        <activity
+52-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:44:9-46:48
+53            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+53-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:45:13-83
+54            android:label="@string/app_name" />
+54-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:46:13-45
+55        <activity
+55-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:47:9-49:48
+56            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+56-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:48:13-88
+57            android:label="@string/app_name" />
+57-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:49:13-45
+58        <activity
+58-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:50:9-52:48
+59            android:name="com.android.attendance.activity.AddAttendanceActivity"
+59-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:51:13-81
+60            android:label="@string/app_name" />
+60-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:52:13-45
+61        <activity
+61-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:53:9-55:48
+62            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+62-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:54:13-91
+63            android:label="@string/app_name" />
+63-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:55:13-45
+64        <activity
+64-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:56:9-58:48
+65            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+65-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:57:13-92
+66            android:label="@string/app_name" />
+66-->E:\Android\New attendence system\app\src\main\AndroidManifest.xml:58:13-45
+67    </application>
+68
+69</manifest>

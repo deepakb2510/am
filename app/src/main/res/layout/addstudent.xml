@@ -1,0 +1,254 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp" >
+
+        <TextView
+            android:id="@+id/textViewUserName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextusername2"
+            android:layout_alignLeft="@+id/editTextPhone"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"
+            android:text="Password"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewUserName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextaddr"
+            android:layout_alignLeft="@+id/editTextPhone"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:text="Username"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/editTextusername2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewUserName"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="88dp"
+            android:layout_marginRight="-1dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textViewFormName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Add Student"
+            android:textColor="#044285"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewFormName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:text="Firstname"
+            android:textColor="#000000" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewFirstName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:hint="Firstname"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextFirstName"
+            android:layout_alignLeft="@+id/editTextFirstName"
+            android:layout_marginTop="15dp"
+            android:text="Lastname"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewLastName"
+            android:layout_alignLeft="@+id/textViewLastName"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextLastName"
+            android:layout_marginTop="15dp"
+            android:text="Contact"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/textViewPhone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10"
+            android:inputType="phone"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPhone"
+            android:layout_alignLeft="@+id/editTextPhone"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="18dp"
+            android:text="Address"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Cancel_Button"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/MessageforRegister"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/MessageforRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RegisterButton"
+            android:layout_marginTop="54dp"
+            android:layout_toRightOf="@+id/textViewUserName"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewUserName"
+            android:layout_marginTop="14dp"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextaddr"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/editTextPhone"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginRight="-13dp"
+            android:background="@drawable/roundedtextview"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="266dp"
+            android:layout_marginTop="169dp"
+            android:text="Select dept"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spinnerdept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="257dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPassword2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="297dp"
+            android:layout_marginRight="297dp"
+            android:text="Select year"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spinneryear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@+id/textViewPassword" />
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/spinneryear"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginRight="148dp"
+            android:layout_toStartOf="@+id/Cancel_Button"
+            android:layout_toLeftOf="@+id/Cancel_Button"
+            android:background="@drawable/roundedbutton"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+</ScrollView>
